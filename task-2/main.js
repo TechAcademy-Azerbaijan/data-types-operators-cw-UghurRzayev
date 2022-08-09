@@ -3,7 +3,9 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
+
+var a = parseInt(result.input) ;
+var s = 6 * a ** 2
+var v = a ** 3
+console.log(v,s);
 });
