@@ -12,8 +12,7 @@ prompt.get('input', function (err, result) {
     let f = parseInt(e/100)
     let u = parseInt(a%10000)
     let y = parseInt(u/1000)
-    console.log(b);
-    console.log(d);
-    console.log(f);
-    console.log(y);
+    let aa = parseInt(b*1000+d*100+f*10+y)
+    console.log(aa);
+
 });
